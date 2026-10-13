@@ -1,0 +1,17 @@
+{
+  "name": "atx-test-breakout",
+  "version": "1.0.0",
+  "description": "Breakout game with a serverless high-score backend",
+  "main": "src/scores.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/scores.js",
+    "test": "node --check src/scores.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1400.0"
+  },
+  "license": "MIT"
+}
